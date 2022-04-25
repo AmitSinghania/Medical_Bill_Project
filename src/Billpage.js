@@ -1,11 +1,11 @@
 import React from "react";
 // import index from "./index.css";
-// import Progressbar from "./Progressbar";
+import Progressbar from "./Progressbar";
 const Billpage = () => {
   return (
     <div className="Billpagecontainer">
       <h1>Medical bill details</h1>
-      {/* <Progressbar /> */}
+      <Progressbar />
 
       <div className="Billpagecontainer-container">
         <div>

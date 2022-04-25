@@ -41,7 +41,7 @@ h1 {
 .Billpagecontainer-container_input {
   height: 35px;
   width: 99%;
-
+  border-radius: 2.5px;
   border-style: solid;
 }
 .Billpagecontainer-container_insurance {
@@ -54,6 +54,8 @@ h1 {
   height: 40px;
   width: 50%;
   font-size: 1.1em;
+  border-top-left-radius: 2.5px;
+  border-bottom-left-radius: 2.5px;
 }
 .Billpagecontainer-container_nobtn {
   background: #ffffff;
@@ -61,7 +63,10 @@ h1 {
   width: 50%;
   font-size: 1.1em;
   border-style: solid;
+  border-top-right-radius: 2.5px;
+  border-bottom-right-radius: 2.5px;
 }
+
 .Billpagecontainer-container_invoice {
   margin-bottom: 5px;
 }
@@ -71,7 +76,7 @@ h1 {
   border: dashed;
   border-width: 1.5px;
   height: 70px;
-
+  border-radius: 2.5px;
   justify-content: center;
   align-items: center;
 }
@@ -79,6 +84,8 @@ h1 {
 .Billpagecontainer-container_imagesbtn {
   background-color: #595959;
   color: #ffffff;
+  border-radius: 2.5px;
+  border: none;
 }
 .Billpagecontainer-container_continuebtn {
   background-color: #b03390;

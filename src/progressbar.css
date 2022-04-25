@@ -1,116 +1,52 @@
-/* #list {
-  width: 2em;
-  height: 2em;
-  text-align: center;
-  line-height: 2em;
-  border-radius: 1em;
-  background-color: #b03390;
-  margin: 0 1em;
-  display: inline-block;
-  color: white;
-  position: relative;
-}
-#list::before {
-  content: "";
-  position: absolute;
-  top: 0.9em;
-  left: -4em;
-  width: 4em;
-  height: 0.2em;
-  background: #b03390;
-  z-index: -1;
-}
-#list:first-child::before {
-  display: none;
-}
-.active {
-  background: #b03390;
-}
-.active ~ li {
-  background: #b03390;
-}
-.active ~ li::before {
-  background: #b03390;
-} */
-.progress-bar {
+.progressbarcontainer {
   display: flex;
-  flex-direction: row;
-  justify-content: baseline;
-  margin-left: 30%;
-}
-.progress-bar p {
-  /* margin: 5%; */
-  border-style: solid;
-  border-radius: 100%;
-  padding: 1.5% 2.4%;
-  color: #b03390;
-  border-color: #b03390;
-}
-.progress-bar .active {
-  background-color: #b03390;
-  color: white;
-}
-.hr {
-  /* position: absolute; */
-  /* padding: 0.01% 4%; */
-  height: 0.5vh;
-  width: 70%;
-  margin-top: 3.5%;
-  margin-left: -1%;
-  margin-right: -0.25%;
-  border: none;
-  background-color: #b03390;
-}
-.hr hr {
-  border-style: solid;
-}
-/* .progress-bar p:first-child::before 
-  /* display: none; */
-@media only screen and (max-width: 880px) {
-  .hr {
-    /* position: absolute; */
-    /* padding: 0.01% 4%; */
-    height: 0.5vh;
-    width: 70%;
-    margin-top: 10%;
-    margin-left: -1%;
-    margin-right: -0.25%;
-    border: none;
-    background-color: #b03390;
-  }
-  .progress-bar p {
-    /* margin: 5%; */
-    border-style: solid;
-    border-radius: 100%;
-    padding: 1% 2.4%;
-    color: #b03390;
-    border-color: #b03390;
-  }
-}
-@media only screen and (max-width: 840px) {
-  .hr {
-    /* position: absolute; */
-    /* padding: 0.01% 4%; */
-    height: 0.5vh;
-    width: 70%;
-    margin-top: 8%;
-    margin-left: -1%;
-    margin-right: -0.25%;
-    border: none;
-    background-color: #b03390;
-  }
+  height: 20px;
+  background-color: #ffffff;
+  width: 75%;
+  justify-content: space-between;
+  margin-left: 60px;
+  align-items: center;
 }
 
-@media only screen and (max-width: 750px) {
-  .hr {
-    /* position: absolute; */
-    /* padding: 0.01% 4%; */
-    height: 0.5vh;
-    width: 70%;
-    margin-top: 6.5%;
-    margin-left: -1%;
-    margin-right: -0.25%;
-    border: none;
-    background-color: #b03390;
-  }
+.progressbarcontainercircle1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background-color: #b03390;
+  border-radius: 13.5px;
+  color: #ffffff;
+}
+.progressbarcontainerline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5px;
+  width: 100%;
+
+  background-color: #b03390;
+}
+.progressbarcontainercircle2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border-radius: 13.5px;
+  border: 2px solid #b03390;
+  color: #b03390;
+  font-weight: 600;
+}
+.progressbarcontainer_text {
+  display: flex;
+  width: 78%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+
+  margin-left: 50px;
+  margin-top: 10px;
 }
